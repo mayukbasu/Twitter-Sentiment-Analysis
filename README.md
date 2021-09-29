@@ -10,19 +10,13 @@ Thousands of text documents can be processed for sentiment (and other features i
 
 We will do so by following a sequence of steps needed to solve a general sentiment analysis problem. We will start with preprocessing and cleaning of the raw text of the tweets. Then we will explore the cleaned text and try to get some intuition about the context of the tweets. After that, we will extract numerical features from the data and finally use these feature sets to train models and identify the sentiments of the tweets.
 
-This is one of the most interesting challenges in NLP so I’m very excited to take this journey with you!
-
 # Understand the Problem Statement
-
-Let’s go through the problem statement once as it is very crucial to understand the objective before working on the dataset. The problem statement is as follows:
 
 The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.
 
 Formally, given a training sample of tweets and labels, where label ‘1’ denotes the tweet is racist/sexist and label ‘0’ denotes the tweet is not racist/sexist, your objective is to predict the labels on the given test dataset.
 
 Note: The evaluation metric from this practice problem is F1-Score.
-
-Take a look at the pictures below depicting two scenarios of an office space – one is untidy and the other is clean and organized.
 
 # Tweets Preprocessing and Cleaning
 
@@ -40,7 +34,10 @@ In this section, we will explore the cleaned tweets text. Exploring and visualiz
 
 Before we begin exploration, we must think and ask questions related to the data in hand. A few probable questions are as follows:
 
-What are the most common words in the entire dataset? What are the most common words in the dataset for negative and positive tweets, respectively? How many hashtags are there in a tweet? Which trends are associated with my dataset? Which trends are associated with either of the sentiments? Are they compatible with the sentiments?
+What are the most common words in the entire dataset?
+What are the most common words in the dataset for negative and positive tweets, respectively?
+How many hashtags are there in a tweet? Which trends are associated with my dataset?
+Which trends are associated with either of the sentiments? Are they compatible with the sentiments?
 
 # End Notes
 
